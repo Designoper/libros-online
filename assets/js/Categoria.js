@@ -1,7 +1,7 @@
 import { Fetch } from "./Fetch.js";
 
 export class Categoria extends Fetch {
-	static ENDPOINT = 'http://libros.liveblog365.com/api/libros';
+	static ENDPOINT = 'http://libros.liveblog365.com/api/categorias';
 	static categorias;
 
 	constructor() {

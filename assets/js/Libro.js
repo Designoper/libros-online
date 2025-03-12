@@ -1,7 +1,7 @@
 import { Categoria } from "./Categoria.js";
 
 class Libro extends Categoria {
-    static ENDPOINT = 'http://localhost/api/libros';
+    static ENDPOINT = 'http://libros.liveblog365.com/api/libros';
 
     static DOM_ELEMENTS = {
         OUTPUT: document.getElementById('fetchoutput'),
